@@ -112,6 +112,7 @@ def organize_schools(schools)
   organized_schools
 end  
       
+<<<<<<< HEAD
 # Notes to remember: 
 
 # re-assigning placeholder values is the key to this method.
@@ -133,6 +134,14 @@ end
 # 105 elsif runs in which line 106 returns true and line 107 shovels another
 # school-key that has the same value of city_value into the array 
 # ("NYC => ["flatiron school bk", "flatiron school"])
+=======
+# Notes to remember:
+
+# Created a new hash called organized_schools (line 99) for schools to be
+# reorganized according to city. Lines 100-101 iterate down to the level
+# of necessary data. Conditional - if the new hash organized_schools has a key
+# in it with the value of city_values 
+>>>>>>> bb868d0e7509c3167d7dbcd27d9848cd3c28b3a2
  
 
 
